@@ -1,5 +1,4 @@
 function fish_greeting
-    fastfetch --config examples/14
 end
 
 if status is-interactive
@@ -25,3 +24,5 @@ abbr mkdir 'mkdir -p'
 
 alias n="nvim"
 alias anime="ani-cli"
+alias cls="clear"
+alias gg="g++"
