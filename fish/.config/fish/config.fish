@@ -1,6 +1,9 @@
 function fish_greeting
 end
 
+# for set nvim as default editor (alt+e)
+set -gx EDITOR nvim
+
 if status is-interactive
     starship init fish | source
 end
@@ -25,4 +28,7 @@ abbr mkdir 'mkdir -p'
 alias n="nvim"
 alias anime="ani-cli"
 alias cls="clear"
-alias gg="g++"
+alias cpp="g++"
+alias pretest="tty-countdown -m 8"
+# alias cpp="g++ \$argv.cpp -o \$argv && ./\$argv"
+alias cpp="g++ \$argv  && ./a.out"
