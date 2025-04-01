@@ -1,22 +1,18 @@
-# ML4W Wallpaper Collection
+# Wallpaper Collection
 
-My personal wallpaper collection that fits best to tiling window managers.
+My personal wallpaper collection 
 
 ## Installation
 
 Clone the directory from your home directory.
 
-```
-cd
-git clone --depth=1 https://github.com/mylinuxforwork/wallpaper.git
-cd wallpaper/
+```shell
+git clone https://github.com/ELghazX/dotfiles.git elghazDotfiles/
 ```
 
-## Update
-
-You can update the wallpapers with
-
+```shell
+cd elghazDotfiles
+stow wallpaper
 ```
-cd ~/wallpaper
-git pull
-```
+
+and it will appear on your Picture folder.

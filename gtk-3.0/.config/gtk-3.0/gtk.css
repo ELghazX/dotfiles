@@ -8,19 +8,15 @@ if when implementing the panel color looks a little messy, you can follow these 
 
 Panel Settings
 	Top:
-	Row size: 4opx
-	Length: 1336px
+	Row size: 40px
+	Length: 1149px
 	Fixed icon size: 17px
+	opacity
+		enter : 90
+		leave : 90
 
-	Clock Font: Roboto Regular 9
-	      Format: " %I:%M %p "
-
-Appearance
-	Theme: Adwaita-Dark
-	Icons: Papirus-Dark, Gruvbox Plus Dark (for launcher)
-	WM Theme: Ant-Bloody
- */
-
+	Clock LCD
+*/
 
 .xfce4-panel {
 	background: #010101;
@@ -28,6 +24,8 @@ Appearance
 	border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;*/
+
+
         font-family: 'Roboto Regular';
         font-size: 12px;
 	opacity: 1;
@@ -35,7 +33,8 @@ Appearance
 
 /*Whisker*/
 #whiskermenu-button {
-	background: #003a78;
+	# background: #003a78;
+	background: #383F69;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;
@@ -261,7 +260,9 @@ Appearance
 /*Note: The launcher ID is obtained by hovering the mouse over the plugin in the panel properties*/
 /*Power*/
 #launcher-3 #launcher-arrow {
-        background: #e43209;
+        # background: #e43209;
+	/*above is default, below is synced with my furina wallpaper*/
+        background: #9C8C5D;
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
         border-top-left-radius: 4px;

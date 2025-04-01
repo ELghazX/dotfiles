@@ -27,7 +27,7 @@ style_root = 'black bold'
 format = '󰣇 [$user]($style) [Sedang Ngodonf](yellow) [on](purple) '
 disabled = false
 show_always = true
-aliases = { "corpuser034g" = "matchati" }
+aliases = { "corpuser034g" = "ELghaz" }
 
 # Git
 [git_status]
@@ -58,7 +58,7 @@ style = "white"
 symbol = " "
 
 [nodejs]
-symbol = " " 
+symbol = " "
 
 [java]
 symbol = "󰬷 "
