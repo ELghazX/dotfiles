@@ -3,9 +3,11 @@ end
 
 # for set nvim as default editor (alt+e)
 set -gx EDITOR nvim
+set -e NODE_OPTIONS
 
 if status is-interactive
     starship init fish | source
+    zoxide init fish | source
 end
 
 # List Directory
@@ -25,6 +27,7 @@ abbr .5 'cd ../../../../..'
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 abbr mkdir 'mkdir -p'
 
+# another alias
 alias n="nvim"
 alias anime="ani-cli"
 alias cls="clear"
@@ -33,3 +36,8 @@ alias pretest="tty-countdown -m 8"
 alias jam="tty-clock -c -C 6 -s"
 # alias cpp="g++ \$argv.cpp -o \$argv && ./\$argv"
 alias cpp="g++ \$argv  && ./a.out"
+alias tidur="sudo shutdown -h +60"
+alias lg="lazygit"
+alias j="z"
+alias jj="zoxide query -i"
+alias tt="tmux"
